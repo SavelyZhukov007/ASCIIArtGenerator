@@ -22,6 +22,43 @@ ASCII art is a visual representation of images using text characters, originatin
 
 Для дополнительной информации / For more information: [ASCII Art - Wikipedia](https://en.wikipedia.org/wiki/ASCII_art).
 
+## Quick Start Guide for Visual Studio / Быстрый старт для Visual Studio
+
+**English**:  
+Follow these steps to download and use *AsciiArtGenerator* with Visual Studio (VS 2022 recommended, .NET 6.0+ required).
+
+1. **Clone the Repository**:  
+   Open Visual Studio > **File > Clone Repository** > Enter `https://github.com/SavelyZhukov007/ASCIIArtGenerator.git` > Choose a local path (e.g., `C:\Projects\ASCIIArtGenerator`) > Clone.
+
+2. **Open the Project**:  
+   In VS, go to **File > Open > Project/Solution** > Navigate to the cloned folder and select the `.csproj` or `.sln` file > Open.
+
+3. **Build the Project**:  
+   Ensure .NET 6.0+ is installed (download from [dotnet.microsoft.com](https://dotnet.microsoft.com)). In VS, press **Ctrl+Shift+B** (Build > Build Solution) to compile.
+
+4. **Run in Interactive Mode**:  
+   Press **F5** (Debug > Start Debugging) to run in interactive mode. Enter a file path (e.g., `C:\test.jpg` or `C:\input.txt`) and follow prompts for parameters (e.g., `-s 4`, `-d super`).
+
+5. **Run with Command-Line Arguments**:  
+   In VS, go to **Project > Properties > Debug > Application arguments** > Add arguments (e.g., `"C:\test.jpg" -s 4 -d super -h`). Press **F5** to run. Outputs will be saved as specified (TXT/HTML/PNG).
+
+**Русский**:  
+Следуйте этим шагам, чтобы скачать и использовать *AsciiArtGenerator* в Visual Studio (рекомендуется VS 2022, требуется .NET 6.0+).
+
+1. **Клонируйте репозиторий**:  
+   Откройте Visual Studio > **File > Clone Repository** > Введите `https://github.com/SavelyZhukov007/ASCIIArtGenerator.git` > Выберите локальную папку (например, `C:\Projects\ASCIIArtGenerator`) > Клонировать.
+
+2. **Откройте проект**:  
+   В VS: **File > Open > Project/Solution** > Перейдите в папку клона, выберите файл `.csproj` или `.sln` > Открыть.
+
+3. **Соберите проект**:  
+   Убедитесь, что установлен .NET 6.0+ (скачать с [dotnet.microsoft.com](https://dotnet.microsoft.com)). Нажмите **Ctrl+Shift+B** (Build > Build Solution) для компиляции.
+
+4. **Запустите в интерактивном режиме**:  
+   Нажмите **F5** (Debug > Start Debugging) для запуска в интерактивном режиме. Введите путь к файлу (например, `C:\test.jpg` или `C:\input.txt`) и следуйте подсказкам для параметров (например, `-s 4`, `-d super`).
+
+5. **Запустите с аргументами командной строки**:  
+   В VS: **Project > Properties > Debug > Application arguments** > Добавьте аргументы (например, `"C:\test.jpg" -s 4 -d super -h`). Нажмите **F5** для запуска. Результаты сохранятся в указанных форматах (TXT/HTML/PNG).
 ---
 
 ## Методы и алгоритмы / Methods and Algorithms
